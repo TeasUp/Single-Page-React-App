@@ -1,0 +1,63 @@
+.news-signIn {
+    flex: 1;
+    min-width: 15.5rem;
+}
+
+.news-signIn h4 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #d8b800;
+}
+
+.news-title p {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.news-input-group {
+    display: flex;
+}
+
+.news-input-group input {
+    flex: 1;
+    padding: 0.75rem;
+    border: none;
+    background-color: #333;
+    color: #ffffff;
+    border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.news-input-group button {
+    padding: 0.75rem 1.5rem;
+    background-color: #d8b800;
+    color: #1a1a1a;
+    border: none;
+    border-radius: 0 0.25rem 0.25rem 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.news-input-group button:hover {
+    background-color: #ecc902;
+}
+
+@media screen and (max-width: 48rem) {
+    .news-signIn {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .news-input-group {
+        flex-direction: column;
+    }
+
+    .news-input-group input,
+    .news-input-group button {
+        width: 100%;
+        border-radius: 0.25rem;
+    }
+
+    .news-input-group input {
+        margin-bottom: 1rem;
+    }
+}

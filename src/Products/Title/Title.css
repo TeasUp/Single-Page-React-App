@@ -1,0 +1,34 @@
+.Title {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.filter-buttons {
+    margin-top: 1rem;
+}
+
+.filter-buttons ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.filter-buttons button {
+    color: black;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.active-filter {
+    background-color: #d8b800;
+}
+
+.filter-buttons button:hover {
+    background-color: #d8b800;
+    color: black;
+}

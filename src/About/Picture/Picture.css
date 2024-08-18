@@ -1,0 +1,13 @@
+.About-Picture {
+    background-color: #d8b800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.About-Picture img {
+    max-width: 100%;
+    height: auto;
+    border: 0.125rem solid #111;
+    border-radius: 0.5rem;
+}

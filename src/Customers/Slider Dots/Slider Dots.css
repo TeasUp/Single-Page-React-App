@@ -1,0 +1,25 @@
+.slider-dots {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.slider-dots ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.slider-dots li {
+    width: 12px;
+    height: 12px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.slider-dots li.active {
+    background-color: #d8b800;
+}

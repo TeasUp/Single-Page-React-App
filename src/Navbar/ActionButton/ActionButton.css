@@ -1,0 +1,15 @@
+.nav-item button {
+  color: white;
+  background-color: transparent;
+  border: 0.16rem solid #d8b800;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.nav-item button:hover {
+  background-color: #d8b800;
+  color: black;
+}

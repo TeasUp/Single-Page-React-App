@@ -1,0 +1,52 @@
+.help-links{
+    flex: 1;
+    min-width: 15.5rem;
+}
+
+.help-links h4 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #d8b800;
+}
+
+.links {
+    list-style-type: none;
+    padding-left: 0.5rem;
+}
+
+.links li {
+    margin-bottom: 0.75rem;
+}
+
+.links a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.links a:before {
+    content: '>';
+    margin-right: 0.5rem;
+    color: #d8b800;
+}
+
+.links a:hover {
+    color: #d8b800;
+}
+
+@media screen and (max-width: 48rem) {
+    .help-links {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 30rem) {
+    .info-social-media {
+        flex-wrap: wrap;
+    }
+
+    .info-social-media li {
+        margin-bottom: 0.5rem;
+    }
+}

@@ -1,0 +1,21 @@
+.Achievements ul {
+  padding: 0;
+  margin-bottom: 1.25rem;
+}
+
+.Achievements li {
+  font-size: 1.2rem;
+  margin-bottom: 0.625rem;
+  padding-left: 1.25rem;
+  position: relative;
+  list-style-type: none;
+}
+
+.Achievements li::before {
+  content: "•";
+  color: #d8b800;
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  width: 1em; 
+}

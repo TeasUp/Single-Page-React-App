@@ -1,0 +1,33 @@
+.help {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+}
+
+.help h2 {
+    color: #d8b800;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.help p {
+    max-width: 37.5rem;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 48rem) {
+    .help h2 {
+        font-size: 2rem;
+    }
+
+    .help p {
+        font-size: 0.9rem;
+    }
+}

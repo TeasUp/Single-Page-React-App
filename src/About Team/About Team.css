@@ -1,0 +1,12 @@
+.about-team {
+    margin: 0 auto;
+    padding: 1.25rem;
+}
+
+.team-members {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.25rem;
+}

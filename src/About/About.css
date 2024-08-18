@@ -1,0 +1,10 @@
+.About {
+  display: flex;
+  margin: 0 auto;
+  color: black;
+}
+
+.About section {
+  flex: 1;
+  padding: 2.5rem;
+}

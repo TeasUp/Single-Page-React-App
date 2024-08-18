@@ -1,0 +1,28 @@
+.Action-btns {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+
+.action-btn {
+    background-color: black;
+    color: #d8b800;
+    border: 0.1875rem solid #d8b800;
+    padding: 1.875rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 13.75rem;
+    height: 13.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.action-btn:hover {
+    background-color: #d8b800;
+    color: black;
+}

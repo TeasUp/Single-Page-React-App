@@ -1,0 +1,38 @@
+.Benefits ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Benefits li {
+    margin-bottom: 2rem;
+}
+
+.Benefits h2 {
+    font-size: 1.5rem;
+    color: #000;
+    margin-bottom: 0.5rem;
+}
+
+.Benefits p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.Benefits h2::before {
+    content: "•";
+    color: #d8b800;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+@media (max-width: 48rem) {
+    .Benefits {
+        flex-direction: column-reverse;
+    }
+
+    .Benefits section {
+        padding-right: 0;
+        padding-top: 2rem;
+    }
+}

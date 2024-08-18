@@ -1,0 +1,11 @@
+.About-Text h2 {
+  font-size: 2.5rem;
+  color: #d8b800;
+  margin-bottom: 1.25rem;
+}
+
+.About-Text p {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}

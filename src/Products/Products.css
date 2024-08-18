@@ -1,0 +1,13 @@
+.Products {
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 5rem;
+}
+
+.Products-Cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(12.5rem, 1fr));
+    grid-auto-rows: 12.5rem;
+    grid-auto-flow: dense;
+    gap: 1rem;
+}

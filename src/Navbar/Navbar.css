@@ -1,0 +1,18 @@
+nav {
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  user-select: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: sticky;
+  top: 0;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  gap: 1.125rem;
+}

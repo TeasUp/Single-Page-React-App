@@ -1,0 +1,14 @@
+.title h1 {
+    font-size: 3rem;
+    margin-bottom: 1.6rem;
+}
+
+.title h2 {
+    font-size: 1.5rem;
+    margin-bottom: 3.75rem;
+}
+
+.logo {
+    color: #d8b800;
+    text-decoration: none;
+}

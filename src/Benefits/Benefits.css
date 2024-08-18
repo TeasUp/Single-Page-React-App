@@ -1,0 +1,9 @@
+.Benefits {
+  display: flex;
+  color: black;
+}
+
+.Benefits section {
+  flex: 1;
+  padding: 2.5rem;
+}
